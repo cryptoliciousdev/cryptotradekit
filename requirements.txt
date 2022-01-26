@@ -86,6 +86,9 @@ click
 passlib
 
 ###### machine learning
+pytorch 
+#torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
 tensorflow
 # scikit-learn
 keras
