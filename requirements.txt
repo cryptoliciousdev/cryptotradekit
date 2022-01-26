@@ -3,7 +3,8 @@ numpy
 scipy
 pandas
 pandas-datareader
-
+datetime
+numba
 # technical analysis, indicator libraries
 ta
 ta-lib
@@ -21,7 +22,7 @@ python-binance
 tda-api
 ib_insync
 robin-stocks
-
+ccxt
 # data providers
 intrinio-sdk
 polygon-api-client
@@ -43,6 +44,7 @@ pillow
 backtrader
 pyalgotrade
 bt
+vectorbt
 
 # portfolio, performance analysis
 pyfolio
@@ -57,11 +59,14 @@ flask-sqlalchemy
 itsdangerous
 aiofiles
 chalice
+aiohttp
+asyncpg
 
 # servers, task queue
 uvicorn
 gunicorn
 celery
+schedule
 
 # networking
 requests
@@ -81,8 +86,8 @@ click
 passlib
 
 ###### machine learning
-# tensorflow
+tensorflow
 # scikit-learn
-# keras
+keras
 # torch
 # opencv-python
